@@ -1,20 +1,20 @@
 {
-"Admins":["234567"],
-"ApiKey":"Steam API Key goes here!",
+"Admins":["76561198044485536"],
+"ApiKey":"19D7DB9140A52F7D58BC4C3C3C56059B",
 "mainLog": "syslog.log",
 "UseSeparateProcesses": "false",
 "AutoStartAllBots": "true",
 "Bots": [
         {
-            "Username":"BOT USERNAME",
-            "Password":"BOT PASSWORD",
-            "DisplayName":"TestBot",
-            "ChatResponse":"Hi there bro",
+            "Username":"BrackGin",
+            "Password":"4leafclover",
+            "DisplayName":"BrackBot",
+            "ChatResponse":"Welcome to the trade shop.",
             "logFile": "TestBot.log",
             "BotControlClass": "SteamBot.SimpleUserHandler",
-            "MaximumTradeTime":180,
+            "MaximumTradeTime":420,
             "MaximumActionGap":30,
-            "DisplayNamePrefix":"[AutomatedBot] ",
+            "DisplayNamePrefix":"[BOT] ",
             "TradePollingInterval":800,
             "LogLevel":"Success",
             "AutoStart": "true"
